@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4BD0CB22A65514D00B75E92 /* ReservationsSUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CB12A65514D00B75E92 /* ReservationsSUIApp.swift */; };
+		B4BD0CB42A65514D00B75E92 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CB32A65514D00B75E92 /* MainView.swift */; };
+		B4BD0CB62A65514F00B75E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0CB52A65514F00B75E92 /* Assets.xcassets */; };
+		B4BD0CBA2A65514F00B75E92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0CB92A65514F00B75E92 /* Preview Assets.xcassets */; };
+		B4BD0CC42A65514F00B75E92 /* ReservationsSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CC32A65514F00B75E92 /* ReservationsSUITests.swift */; };
+		B4BD0CCE2A65514F00B75E92 /* ReservationsSUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CCD2A65514F00B75E92 /* ReservationsSUIUITests.swift */; };
+		B4BD0CD02A65514F00B75E92 /* ReservationsSUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CCF2A65514F00B75E92 /* ReservationsSUIUITestsLaunchTests.swift */; };
+		B4BD0CDD2A6551FF00B75E92 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CDC2A6551FF00B75E92 /* LocationsView.swift */; };
+		B4BD0CDE2A6551FF00B75E92 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CDC2A6551FF00B75E92 /* LocationsView.swift */; };
+		B4BD0CDF2A6551FF00B75E92 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CDC2A6551FF00B75E92 /* LocationsView.swift */; };
+		B4BD0CE12A65529D00B75E92 /* LittleLemonLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CE02A65529D00B75E92 /* LittleLemonLogo.swift */; };
+		B4BD0CE22A65529D00B75E92 /* LittleLemonLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CE02A65529D00B75E92 /* LittleLemonLogo.swift */; };
+		B4BD0CE32A65529D00B75E92 /* LittleLemonLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CE02A65529D00B75E92 /* LittleLemonLogo.swift */; };
+		B4BD0CE52A65530B00B75E92 /* RestaurantLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CE42A65530B00B75E92 /* RestaurantLocation.swift */; };
+		B4BD0CE62A65530B00B75E92 /* RestaurantLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CE42A65530B00B75E92 /* RestaurantLocation.swift */; };
+		B4BD0CE92A65533800B75E92 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CE82A65533800B75E92 /* RestaurantView.swift */; };
+		B4BD0CEA2A65533800B75E92 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CE82A65533800B75E92 /* RestaurantView.swift */; };
+		B4BD0CEB2A65533800B75E92 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CE82A65533800B75E92 /* RestaurantView.swift */; };
+		B4BD0CF12A6553DB00B75E92 /* ReservationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CEE2A6553DB00B75E92 /* ReservationForm.swift */; };
+		B4BD0CF22A6553DB00B75E92 /* ReservationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CEE2A6553DB00B75E92 /* ReservationForm.swift */; };
+		B4BD0CF32A6553DB00B75E92 /* ReservationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CEE2A6553DB00B75E92 /* ReservationForm.swift */; };
+		B4BD0CF42A6553DB00B75E92 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CEF2A6553DB00B75E92 /* Reservation.swift */; };
+		B4BD0CF52A6553DB00B75E92 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CEF2A6553DB00B75E92 /* Reservation.swift */; };
+		B4BD0CF62A6553DB00B75E92 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CEF2A6553DB00B75E92 /* Reservation.swift */; };
+		B4BD0CF72A6553DB00B75E92 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CF02A6553DB00B75E92 /* ReservationView.swift */; };
+		B4BD0CF82A6553DB00B75E92 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CF02A6553DB00B75E92 /* ReservationView.swift */; };
+		B4BD0CF92A6553DB00B75E92 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CF02A6553DB00B75E92 /* ReservationView.swift */; };
+		B4BD0CFB2A65546D00B75E92 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CFA2A65546D00B75E92 /* Model.swift */; };
+		B4BD0CFC2A65546D00B75E92 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CFA2A65546D00B75E92 /* Model.swift */; };
+		B4BD0CFD2A65546D00B75E92 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CFA2A65546D00B75E92 /* Model.swift */; };
+		B4BD0CFE2A65562300B75E92 /* RestaurantLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0CE42A65530B00B75E92 /* RestaurantLocation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4BD0CC02A65514F00B75E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4BD0CA62A65514D00B75E92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4BD0CAD2A65514D00B75E92;
+			remoteInfo = ReservationsSUI;
+		};
+		B4BD0CCA2A65514F00B75E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4BD0CA62A65514D00B75E92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4BD0CAD2A65514D00B75E92;
+			remoteInfo = ReservationsSUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4BD0CAE2A65514D00B75E92 /* ReservationsSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReservationsSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4BD0CB12A65514D00B75E92 /* ReservationsSUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsSUIApp.swift; sourceTree = "<group>"; };
+		B4BD0CB32A65514D00B75E92 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B4BD0CB52A65514F00B75E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4BD0CB72A65514F00B75E92 /* ReservationsSUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReservationsSUI.entitlements; sourceTree = "<group>"; };
+		B4BD0CB92A65514F00B75E92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4BD0CBF2A65514F00B75E92 /* ReservationsSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReservationsSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4BD0CC32A65514F00B75E92 /* ReservationsSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsSUITests.swift; sourceTree = "<group>"; };
+		B4BD0CC92A65514F00B75E92 /* ReservationsSUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReservationsSUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4BD0CCD2A65514F00B75E92 /* ReservationsSUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsSUIUITests.swift; sourceTree = "<group>"; };
+		B4BD0CCF2A65514F00B75E92 /* ReservationsSUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsSUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4BD0CDC2A6551FF00B75E92 /* LocationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		B4BD0CE02A65529D00B75E92 /* LittleLemonLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonLogo.swift; sourceTree = "<group>"; };
+		B4BD0CE42A65530B00B75E92 /* RestaurantLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantLocation.swift; sourceTree = "<group>"; };
+		B4BD0CE82A65533800B75E92 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		B4BD0CEE2A6553DB00B75E92 /* ReservationForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationForm.swift; sourceTree = "<group>"; };
+		B4BD0CEF2A6553DB00B75E92 /* Reservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		B4BD0CF02A6553DB00B75E92 /* ReservationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
+		B4BD0CFA2A65546D00B75E92 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4BD0CAB2A65514D00B75E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BD0CBC2A65514F00B75E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BD0CC62A65514F00B75E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4BD0CA52A65514D00B75E92 = {
+			isa = PBXGroup;
+			children = (
+				B4BD0CB02A65514D00B75E92 /* ReservationsSUI */,
+				B4BD0CC22A65514F00B75E92 /* ReservationsSUITests */,
+				B4BD0CCC2A65514F00B75E92 /* ReservationsSUIUITests */,
+				B4BD0CAF2A65514D00B75E92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4BD0CAF2A65514D00B75E92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0CAE2A65514D00B75E92 /* ReservationsSUI.app */,
+				B4BD0CBF2A65514F00B75E92 /* ReservationsSUITests.xctest */,
+				B4BD0CC92A65514F00B75E92 /* ReservationsSUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4BD0CB02A65514D00B75E92 /* ReservationsSUI */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0CB12A65514D00B75E92 /* ReservationsSUIApp.swift */,
+				B4BD0CB32A65514D00B75E92 /* MainView.swift */,
+				B4BD0CFA2A65546D00B75E92 /* Model.swift */,
+				B4BD0CDC2A6551FF00B75E92 /* LocationsView.swift */,
+				B4BD0CE02A65529D00B75E92 /* LittleLemonLogo.swift */,
+				B4BD0CEC2A65537400B75E92 /* Restaurant */,
+				B4BD0CED2A6553DB00B75E92 /* Reservation */,
+				B4BD0CB52A65514F00B75E92 /* Assets.xcassets */,
+				B4BD0CB72A65514F00B75E92 /* ReservationsSUI.entitlements */,
+				B4BD0CB82A65514F00B75E92 /* Preview Content */,
+			);
+			path = ReservationsSUI;
+			sourceTree = "<group>";
+		};
+		B4BD0CB82A65514F00B75E92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0CB92A65514F00B75E92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4BD0CC22A65514F00B75E92 /* ReservationsSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0CC32A65514F00B75E92 /* ReservationsSUITests.swift */,
+			);
+			path = ReservationsSUITests;
+			sourceTree = "<group>";
+		};
+		B4BD0CCC2A65514F00B75E92 /* ReservationsSUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0CCD2A65514F00B75E92 /* ReservationsSUIUITests.swift */,
+				B4BD0CCF2A65514F00B75E92 /* ReservationsSUIUITestsLaunchTests.swift */,
+			);
+			path = ReservationsSUIUITests;
+			sourceTree = "<group>";
+		};
+		B4BD0CEC2A65537400B75E92 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0CE42A65530B00B75E92 /* RestaurantLocation.swift */,
+				B4BD0CE82A65533800B75E92 /* RestaurantView.swift */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		B4BD0CED2A6553DB00B75E92 /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0CEF2A6553DB00B75E92 /* Reservation.swift */,
+				B4BD0CEE2A6553DB00B75E92 /* ReservationForm.swift */,
+				B4BD0CF02A6553DB00B75E92 /* ReservationView.swift */,
+			);
+			path = Reservation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4BD0CAD2A65514D00B75E92 /* ReservationsSUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4BD0CD32A65514F00B75E92 /* Build configuration list for PBXNativeTarget "ReservationsSUI" */;
+			buildPhases = (
+				B4BD0CAA2A65514D00B75E92 /* Sources */,
+				B4BD0CAB2A65514D00B75E92 /* Frameworks */,
+				B4BD0CAC2A65514D00B75E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReservationsSUI;
+			productName = ReservationsSUI;
+			productReference = B4BD0CAE2A65514D00B75E92 /* ReservationsSUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4BD0CBE2A65514F00B75E92 /* ReservationsSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4BD0CD62A65514F00B75E92 /* Build configuration list for PBXNativeTarget "ReservationsSUITests" */;
+			buildPhases = (
+				B4BD0CBB2A65514F00B75E92 /* Sources */,
+				B4BD0CBC2A65514F00B75E92 /* Frameworks */,
+				B4BD0CBD2A65514F00B75E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4BD0CC12A65514F00B75E92 /* PBXTargetDependency */,
+			);
+			name = ReservationsSUITests;
+			productName = ReservationsSUITests;
+			productReference = B4BD0CBF2A65514F00B75E92 /* ReservationsSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4BD0CC82A65514F00B75E92 /* ReservationsSUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4BD0CD92A65514F00B75E92 /* Build configuration list for PBXNativeTarget "ReservationsSUIUITests" */;
+			buildPhases = (
+				B4BD0CC52A65514F00B75E92 /* Sources */,
+				B4BD0CC62A65514F00B75E92 /* Frameworks */,
+				B4BD0CC72A65514F00B75E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4BD0CCB2A65514F00B75E92 /* PBXTargetDependency */,
+			);
+			name = ReservationsSUIUITests;
+			productName = ReservationsSUIUITests;
+			productReference = B4BD0CC92A65514F00B75E92 /* ReservationsSUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4BD0CA62A65514D00B75E92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B4BD0CAD2A65514D00B75E92 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					B4BD0CBE2A65514F00B75E92 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B4BD0CAD2A65514D00B75E92;
+					};
+					B4BD0CC82A65514F00B75E92 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B4BD0CAD2A65514D00B75E92;
+					};
+				};
+			};
+			buildConfigurationList = B4BD0CA92A65514D00B75E92 /* Build configuration list for PBXProject "ReservationsSUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4BD0CA52A65514D00B75E92;
+			productRefGroup = B4BD0CAF2A65514D00B75E92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4BD0CAD2A65514D00B75E92 /* ReservationsSUI */,
+				B4BD0CBE2A65514F00B75E92 /* ReservationsSUITests */,
+				B4BD0CC82A65514F00B75E92 /* ReservationsSUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4BD0CAC2A65514D00B75E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BD0CBA2A65514F00B75E92 /* Preview Assets.xcassets in Resources */,
+				B4BD0CB62A65514F00B75E92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BD0CBD2A65514F00B75E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BD0CC72A65514F00B75E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4BD0CAA2A65514D00B75E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BD0CDD2A6551FF00B75E92 /* LocationsView.swift in Sources */,
+				B4BD0CF72A6553DB00B75E92 /* ReservationView.swift in Sources */,
+				B4BD0CB42A65514D00B75E92 /* MainView.swift in Sources */,
+				B4BD0CE12A65529D00B75E92 /* LittleLemonLogo.swift in Sources */,
+				B4BD0CF12A6553DB00B75E92 /* ReservationForm.swift in Sources */,
+				B4BD0CFB2A65546D00B75E92 /* Model.swift in Sources */,
+				B4BD0CE52A65530B00B75E92 /* RestaurantLocation.swift in Sources */,
+				B4BD0CB22A65514D00B75E92 /* ReservationsSUIApp.swift in Sources */,
+				B4BD0CF42A6553DB00B75E92 /* Reservation.swift in Sources */,
+				B4BD0CE92A65533800B75E92 /* RestaurantView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BD0CBB2A65514F00B75E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BD0CFC2A65546D00B75E92 /* Model.swift in Sources */,
+				B4BD0CC42A65514F00B75E92 /* ReservationsSUITests.swift in Sources */,
+				B4BD0CE62A65530B00B75E92 /* RestaurantLocation.swift in Sources */,
+				B4BD0CF22A6553DB00B75E92 /* ReservationForm.swift in Sources */,
+				B4BD0CE22A65529D00B75E92 /* LittleLemonLogo.swift in Sources */,
+				B4BD0CEA2A65533800B75E92 /* RestaurantView.swift in Sources */,
+				B4BD0CF82A6553DB00B75E92 /* ReservationView.swift in Sources */,
+				B4BD0CF52A6553DB00B75E92 /* Reservation.swift in Sources */,
+				B4BD0CDE2A6551FF00B75E92 /* LocationsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BD0CC52A65514F00B75E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BD0CDF2A6551FF00B75E92 /* LocationsView.swift in Sources */,
+				B4BD0CF92A6553DB00B75E92 /* ReservationView.swift in Sources */,
+				B4BD0CCE2A65514F00B75E92 /* ReservationsSUIUITests.swift in Sources */,
+				B4BD0CFE2A65562300B75E92 /* RestaurantLocation.swift in Sources */,
+				B4BD0CE32A65529D00B75E92 /* LittleLemonLogo.swift in Sources */,
+				B4BD0CF32A6553DB00B75E92 /* ReservationForm.swift in Sources */,
+				B4BD0CFD2A65546D00B75E92 /* Model.swift in Sources */,
+				B4BD0CD02A65514F00B75E92 /* ReservationsSUIUITestsLaunchTests.swift in Sources */,
+				B4BD0CF62A6553DB00B75E92 /* Reservation.swift in Sources */,
+				B4BD0CEB2A65533800B75E92 /* RestaurantView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4BD0CC12A65514F00B75E92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4BD0CAD2A65514D00B75E92 /* ReservationsSUI */;
+			targetProxy = B4BD0CC02A65514F00B75E92 /* PBXContainerItemProxy */;
+		};
+		B4BD0CCB2A65514F00B75E92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4BD0CAD2A65514D00B75E92 /* ReservationsSUI */;
+			targetProxy = B4BD0CCA2A65514F00B75E92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B4BD0CD12A65514F00B75E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4BD0CD22A65514F00B75E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B4BD0CD42A65514F00B75E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReservationsSUI/ReservationsSUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReservationsSUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 7JXND92GUH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stein.ReservationsSUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4BD0CD52A65514F00B75E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReservationsSUI/ReservationsSUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReservationsSUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 7JXND92GUH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stein.ReservationsSUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4BD0CD72A65514F00B75E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JXND92GUH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stein.ReservationsSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReservationsSUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReservationsSUI";
+			};
+			name = Debug;
+		};
+		B4BD0CD82A65514F00B75E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JXND92GUH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stein.ReservationsSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReservationsSUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReservationsSUI";
+			};
+			name = Release;
+		};
+		B4BD0CDA2A65514F00B75E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JXND92GUH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stein.ReservationsSUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReservationsSUI;
+			};
+			name = Debug;
+		};
+		B4BD0CDB2A65514F00B75E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JXND92GUH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stein.ReservationsSUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReservationsSUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4BD0CA92A65514D00B75E92 /* Build configuration list for PBXProject "ReservationsSUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BD0CD12A65514F00B75E92 /* Debug */,
+				B4BD0CD22A65514F00B75E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4BD0CD32A65514F00B75E92 /* Build configuration list for PBXNativeTarget "ReservationsSUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BD0CD42A65514F00B75E92 /* Debug */,
+				B4BD0CD52A65514F00B75E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4BD0CD62A65514F00B75E92 /* Build configuration list for PBXNativeTarget "ReservationsSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BD0CD72A65514F00B75E92 /* Debug */,
+				B4BD0CD82A65514F00B75E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4BD0CD92A65514F00B75E92 /* Build configuration list for PBXNativeTarget "ReservationsSUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BD0CDA2A65514F00B75E92 /* Debug */,
+				B4BD0CDB2A65514F00B75E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4BD0CA62A65514D00B75E92 /* Project object */;
+}
